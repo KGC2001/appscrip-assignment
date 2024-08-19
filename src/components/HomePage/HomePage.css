@@ -1,0 +1,50 @@
+/* src/HomePage.css */
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    background-color: #f9f9f9; /* Light background */
+    padding: 20px;
+  }
+ 
+  .content-filters{
+    width: 25%;
+  }
+  .content-list{
+    width: 75%;
+  }
+  .filters {
+    width: 250px;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    background-color: #fff; /* Sidebar background */
+  }
+  
+  .product-list {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+  }
+
+  @media screen and (max-width: 480px) {
+    .content {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      background-color: #f9f9f9; /* Light background */
+      padding: 20px;
+    }
+  }

@@ -1,0 +1,12 @@
+/* src/Footer.css */
+
+.footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+
+li{
+    list-style: none;
+}
